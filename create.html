@@ -71,18 +71,18 @@
         <h3>Create account</h3><br /><br />
         
         <div class="sub19">
-            <input type="text" placeholder="First name">
-            <input type="text" placeholder="Last name">
+            <input type="text" id="fName" name="fName" placeholder="Full Name">
+            <input type="email" id="email" name="email" placeholder="Email Address">
         </div><br><br>
 
         <div class="sub19">
-            <input type="text" placeholder="Email"><br><br>
-            <input type="text" placeholder="Password"> <br><br>
+            <input type="number" id="phone" name="phone" placeholder="Phone Number"><br><br>
+            <input type="password" id="password" name="password" placeholder="Password"> <br><br>
         </div><br><br>
 
         
         <div class="sub19"> 
-            <button><b>CREATE</b></button>
+            <button type="button" id="crtAccBtn"><b>CREATE</b></button>
             <p>Returning customer? <a class="ola" href="login.html">Sign in </a></p>  
         </div>
     </div>
@@ -128,7 +128,8 @@
     </div>
 
     
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/createAcc.js"></script>
 
 </body>
 </html>
